@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+.heading{
+    background-color: rgb(78, 192, 245);
+    color:white;
+}
+.heading h1{
+    padding:15px 20px;
+    font-weight: normal;
+    font-size: 50px;
+    font-family: century gothic;
+}
+.nav{
+    background-color: #333;
+}
+.nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+.nav li{
+    padding-top:10px;
+    padding-left: 25px;
+    float: left;
+}
+.nav li:last-child{
+    float:right;
+    padding-right:25px;
+    padding-top: 5px;
+}
+.nav a{
+    color:white;
+    text-decoration:none;
+    font-weight: 600;
+}
+.news{
+    margin-left:50px;
+    margin-top:20px;
+    border:1px solid black;
+    width:800px;
+}
+.news h3{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.news li{
+    padding-left:10px;
+    padding-bottom:15px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.news ul{
+    margin:5px;
+    padding-left:5px;
+    list-style-type:none;
+}
+.welcome{
+    margin-left:50px;
+    margin-top: 15px;
+}
+.welcome h3{
+    padding-top:10px;
+    margin-bottom:10px;
+}
+.welcome p{
+    width:1000px;
+    margin-bottom:15px;
+    font-size: 16px;
+}
